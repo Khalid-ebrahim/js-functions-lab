@@ -54,3 +54,10 @@ const maxOfThree = (num1, num2, num3) => {
   }
 }
 console.log('Exercise 6 Result:', maxOfThree(5, 10, 8))
+
+const calculateTip = (argument1, argument2) => {
+  {
+    return argument1 % argument2
+  }
+}
+console.log('Exercise 7 Result:', calculateTip(50, 20))
