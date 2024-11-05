@@ -61,3 +61,25 @@ const calculateTip = (argument1, argument2) => {
   }
 }
 console.log('Exercise 7 Result:', calculateTip(50, 20))
+
+const convertTemperature = (scale, temp) => {
+  if (scale === 'f') {
+    return ((temp - 32) * 5) / 9
+  } else {
+    return (temp * 9) / 5 + 32
+  }
+}
+console.log('Exercise 8 Result:', convertTemperature('f', 32))
+
+const basicCalculator = (num1, num2, operation) => {
+  if (operation === 'add') {
+    return num1 + num2
+  } else if (operation === 'subtract') {
+    return num1 - num2
+  } else if (operation === 'multiply') {
+    return num1 * num2
+  } else if (operation === 'divide') {
+    return num1 / num2
+  }
+}
+console.log('Exercise 9 Result:', basicCalculator(10, 5, 'multiply'))
