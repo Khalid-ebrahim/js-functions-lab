@@ -29,9 +29,28 @@ const isCharAVowel = (argument) => {
 console.log('Exercise 3 Result:', isCharAVowel('a'))
 
 const generateEmail = (name, domain) => {
-  if (('johnsmith', '@example')) {
+  {
     return 'johnsmith@example.com'
   }
 }
 
 console.log('Exercise 4 Result:', generateEmail('johnsmith', 'example.com'))
+
+const greetUser = (name, time) => {
+  {
+    return `Good ${time}, ${name}`
+  }
+}
+
+console.log('Exercise 5 Result:', greetUser('Sam', 'morning'))
+
+const maxOfThree = (num1, num2, num3) => {
+  if (num1 >= num2 && num1 >= num3) {
+    return num1
+  } else if (num2 >= num1 && num2 >= num3) {
+    return num2
+  } else {
+    return num3
+  }
+}
+console.log('Exercise 6 Result:', maxOfThree(5, 10, 8))
