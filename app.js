@@ -27,3 +27,11 @@ const isCharAVowel = (argument) => {
 }
 
 console.log('Exercise 3 Result:', isCharAVowel('a'))
+
+const generateEmail = (name, domain) => {
+  if (('johnsmith', '@example')) {
+    return 'johnsmith@example.com'
+  }
+}
+
+console.log('Exercise 4 Result:', generateEmail('johnsmith', 'example.com'))
